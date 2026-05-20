@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI赋能 · 签单无忧</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-orange-50 via-white to-yellow-50 text-gray-800">
+  <section class="relative overflow-hidden">
+    <div class="absolute top-0 left-0 w-72 h-72 bg-orange-200 rounded-full blur-3xl opacity-30 -translate-x-20 -translate-y-20"></div>
+    <div class="absolute bottom-0 right-0 w-80 h-80 bg-yellow-200 rounded-full blur-3xl opacity-30 translate-x-24 translate-y-24"></div>
+    <div class="relative max-w-7xl mx-auto px-6 py-24 lg:py-32 grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <div class="inline-flex items-center rounded-full bg-orange-100 text-orange-700 px-4 py-2 text-sm font-medium mb-6">
+          AI赋能 · 签单无忧
+        </div>
+        <h1 class="text-5xl lg:text-6xl font-bold leading-tight mb-6">
+          用 AI 提升谈单效率<br />
+          <span class="text-orange-500">让设计更快成交</span>
+        </h1>
+        <p class="text-lg text-gray-600 leading-8 mb-10 max-w-xl">
+          免费领取14天AI智能设计平台体验权益，真实体验AI在方案设计、现场改图、客户沟通中的高效能力。分享你的签单故事，还有机会获得京东卡奖励与官方案例曝光。
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <button onclick="scrollToQR()" class="px-8 py-4 rounded-2xl bg-orange-500 hover:bg-orange-600 transition-all text-white text-lg font-semibold shadow-lg shadow-orange-200">
+            领取14天体验权益
+          </button>
+          <button onclick="scrollToQR()" class="px-8 py-4 rounded-2xl bg-white border border-orange-200 hover:border-orange-400 transition-all text-orange-600 text-lg font-semibold shadow-sm">
+            加入活动交流群
+          </button>
+        </div>
+        <div class="flex flex-wrap gap-8 mt-10 text-sm text-gray-500">
+          <div><div class="text-2xl font-bold text-gray-800">14天</div>免费体验</div>
+          <div><div class="text-2xl font-bold text-gray-800">Top10</div>优秀案例奖励</div>
+          <div><div class="text-2xl font-bold text-gray-800">1V1</div>专属服务支持</div>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="bg-white rounded-[32px] shadow-2xl p-6 border border-orange-100">
+          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1200&auto=format&fit=crop" alt="AI设计平台" class="rounded-3xl w-full h-[480px] object-cover">
+          <div class="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-5 border border-orange-100">
+            <div class="text-sm text-gray-500 mb-1">平均方案输出效率提升</div>
+            <div class="text-3xl font-bold text-orange-500">80%</div>
+          </div>
+          <div class="absolute top-6 -right-4 bg-orange-500 text-white rounded-2xl px-5 py-4 shadow-lg">
+            <div class="text-sm opacity-90">AI快速出图</div>
+            <div class="font-bold text-xl">实时改方案</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-6 py-20">
+    <div class="text-center mb-14">
+      <div class="text-orange-500 font-semibold mb-3">活动亮点</div>
+      <h2 class="text-4xl font-bold">为什么值得参与？</h2>
+    </div>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-3xl p-8 shadow-lg border border-orange-100 hover:-translate-y-1 transition-all">
+        <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-orange-100 to-yellow-50 border border-orange-200 flex items-center justify-center text-2xl font-bold text-orange-500 mb-6 shadow-sm">01</div>
+        <h3 class="text-2xl font-bold mb-4">AI辅助谈单</h3>
+        <p class="text-gray-600 leading-7">快速生成设计方案与概念图，提升客户沟通效率，减少反复修改时间。</p>
+      </div>
+      <div class="bg-white rounded-3xl p-8 shadow-lg border border-orange-100 hover:-translate-y-1 transition-all">
+        <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-orange-100 to-yellow-50 border border-orange-200 flex items-center justify-center text-2xl font-bold text-orange-500 mb-6 shadow-sm">02</div>
+        <h3 class="text-2xl font-bold mb-4">真实业务场景体验</h3>
+        <p class="text-gray-600 leading-7">在实际客户接待与方案演示中体验AI工具，感受签单效率提升。</p>
+      </div>
+      <div class="bg-white rounded-3xl p-8 shadow-lg border border-orange-100 hover:-translate-y-1 transition-all">
+        <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-orange-100 to-yellow-50 border border-orange-200 flex items-center justify-center text-2xl font-bold text-orange-500 mb-6 shadow-sm">03</div>
+        <h3 class="text-2xl font-bold mb-4">优质案例奖励</h3>
+        <p class="text-gray-600 leading-7">优秀案例有机会获得京东卡奖励，并成为官方精选客户故事。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-24">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <div class="text-orange-500 font-semibold mb-3">参与流程</div>
+        <h2 class="text-4xl font-bold">4步开启 AI 签单体验</h2>
+      </div>
+      <div class="grid lg:grid-cols-4 gap-8">
+        <div class="relative bg-gradient-to-br from-orange-50 to-yellow-50 rounded-3xl p-8 border border-orange-100">
+          <div class="text-5xl font-bold text-orange-200 mb-6">01</div>
+          <h3 class="text-2xl font-bold mb-3">加入活动交流群</h3>
+          <p class="text-gray-600 leading-7">获取活动信息与专属体验权益</p>
+        </div>
+        <div class="relative bg-gradient-to-br from-orange-50 to-yellow-50 rounded-3xl p-8 border border-orange-100">
+          <div class="text-5xl font-bold text-orange-200 mb-6">02</div>
+          <h3 class="text-2xl font-bold mb-3">领取体验卡</h3>
+          <p class="text-gray-600 leading-7">免费体验AI智能设计平台14天</p>
+        </div>
+        <div class="relative bg-gradient-to-br from-orange-50 to-yellow-50 rounded-3xl p-8 border border-orange-100">
+          <div class="text-5xl font-bold text-orange-200 mb-6">03</div>
+          <h3 class="text-2xl font-bold mb-3">实战使用AI工具</h3>
+          <p class="text-gray-600 leading-7">用于客户沟通、设计演示与方案优化</p>
+        </div>
+        <div class="relative bg-gradient-to-br from-orange-50 to-yellow-50 rounded-3xl p-8 border border-orange-100">
+          <div class="text-5xl font-bold text-orange-200 mb-6">04</div>
+          <h3 class="text-2xl font-bold mb-3">提交签单案例</h3>
+          <p class="text-gray-600 leading-7">优秀案例将获得官方奖励与曝光</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-6 py-24">
+    <div class="text-center mb-16">
+      <div class="text-orange-500 font-semibold mb-3">活动奖励</div>
+      <h2 class="text-4xl font-bold">优秀案例奖励计划</h2>
+    </div>
+    <div class="grid lg:grid-cols-3 gap-8">
+      <div class="bg-gradient-to-br from-yellow-100 to-orange-100 rounded-3xl p-10 shadow-lg border border-yellow-200">
+        <div class="text-sm font-semibold text-orange-700 mb-3">一等奖</div>
+        <div class="text-5xl font-bold mb-4">¥800</div>
+        <div class="text-gray-700 text-lg">京东卡奖励</div>
+        <div class="mt-6 text-gray-600">Top 1 - 2</div>
+      </div>
+      <div class="bg-white rounded-3xl p-10 shadow-lg border border-orange-100">
+        <div class="text-sm font-semibold text-orange-500 mb-3">二等奖</div>
+        <div class="text-5xl font-bold mb-4">¥300</div>
+        <div class="text-gray-700 text-lg">京东卡奖励</div>
+        <div class="mt-6 text-gray-600">Top 3 - 5</div>
+      </div>
+      <div class="bg-white rounded-3xl p-10 shadow-lg border border-orange-100">
+        <div class="text-sm font-semibold text-orange-500 mb-3">三等奖</div>
+        <div class="text-5xl font-bold mb-4">¥100</div>
+        <div class="text-gray-700 text-lg">京东卡奖励</div>
+        <div class="mt-6 text-gray-600">Top 6 - 10</div>
+      </div>
+    </div>
+    <div class="mt-10 bg-orange-50 border border-orange-100 rounded-3xl p-8 text-center text-lg text-gray-700 leading-8">
+      所有成功提交案例的用户，均可获得精美活动周边礼品一份。
+    </div>
+  </section>
+
+  <section class="bg-gradient-to-r from-orange-50 to-yellow-50 py-24">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+      <div>
+        <div class="text-orange-500 font-semibold mb-3">真实场景应用</div>
+        <h2 class="text-4xl font-bold leading-tight mb-8">
+          AI 如何帮助你<br />更快拿下客户？
+        </h2>
+        <div class="space-y-6">
+          <div class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm border border-orange-100">
+            <div class="w-8 h-8 rounded-full bg-orange-500 text-white flex items-center justify-center font-bold">✓</div>
+            <div class="text-lg text-gray-700">客户首次沟通时，快速输出概念方案</div>
+          </div>
+          <div class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm border border-orange-100">
+            <div class="w-8 h-8 rounded-full bg-orange-500 text-white flex items-center justify-center font-bold">✓</div>
+            <div class="text-lg text-gray-700">现场实时改图，提升客户满意度</div>
+          </div>
+          <div class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm border border-orange-100">
+            <div class="w-8 h-8 rounded-full bg-orange-500 text-white flex items-center justify-center font-bold">✓</div>
+            <div class="text-lg text-gray-700">减少往返沟通次数，加快签单效率</div>
+          </div>
+          <div class="flex items-start gap-4 bg-white rounded-2xl p-5 shadow-sm border border-orange-100">
+            <div class="w-8 h-8 rounded-full bg-orange-500 text-white flex items-center justify-center font-bold">✓</div>
+            <div class="text-lg text-gray-700">快速生成高质量视觉方案，提升专业度</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop" alt="AI办公" class="rounded-[32px] shadow-2xl w-full h-[520px] object-cover">
+      </div>
+    </div>
+  </section>
+
+  <section id="qr-code-section" class="py-24 px-6">
+    <div class="max-w-5xl mx-auto bg-gradient-to-r from-orange-500 to-amber-400 rounded-[40px] p-12 lg:p-16 text-center text-white shadow-2xl">
+      <div class="text-sm font-semibold tracking-widest opacity-80 mb-4">AI DESIGN EXPERIENCE</div>
+      <h2 class="text-4xl lg:text-5xl font-bold leading-tight mb-6">开启你的 AI 高效签单体验</h2>
+      <p class="text-lg leading-8 opacity-90 max-w-3xl mx-auto mb-10">
+        免费体验AI智能设计平台，用真实业务场景感受AI工具如何帮助提升效率与成交率。
+      </p>
+      <div class="flex flex-col lg:flex-row items-center justify-center gap-8 mt-10">
+        <div class="bg-white rounded-3xl p-5 shadow-2xl">
+          <div class="w-44 h-44 rounded-2xl border-2 border-dashed border-orange-300 flex flex-col items-center justify-center text-orange-400 bg-orange-50">
+            <div class="text-lg font-semibold mb-2">社群二维码</div>
+            <div class="text-sm">请替换为实际二维码</div>
+          </div>
+        </div>
+        <div class="text-left max-w-md">
+          <div class="text-2xl font-bold mb-4">扫码加入活动交流群</div>
+          <div class="space-y-3 text-white/90 leading-7 text-lg">
+            <div>• 获取14天AI体验权益</div>
+            <div>• 领取活动最新通知与玩法说明</div>
+            <div>• 查看优秀客户案例与实战分享</div>
+            <div>• 专属顾问在线答疑</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function scrollToQR() {
+      const section = document.getElementById('qr-code-section');
+      if (section) section.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
+
